@@ -6,9 +6,10 @@
 
 1. Клонируйте репозиторий:
 
-'bash' 
-   git clone <git@github.com:lets-dancing/test_for_interview_Brendwall.git> 
-   cd <название папки с проектом>
+'bash'
+
+`git clone git@github.com:lets-dancing/test_for_interview_Brendwall.git`
+`cd product_project`
 
 
 2. Создайте и активируйте виртуальное окружение:
