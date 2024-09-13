@@ -5,29 +5,34 @@
 ## Установка
 
 1. Клонируйте репозиторий:
-bash 
-   git clone <URL вашего репозитория> 
+
+'bash' 
+   git clone <git@github.com:lets-dancing/test_for_interview_Brendwall.git> 
    cd <название папки с проектом>
 
 
 2. Создайте и активируйте виртуальное окружение:
-bash 
+
+'bash'
    python -m venv venv 
    source venv/bin/activate  # Для Windows используйте  venv\Scripts\activate
 
 
 3. Установите зависимости:
-bash 
+
+'bash'
    pip install -r requirements.txt
 
 
 4. Примените миграции для настройки базы данных:
-bash 
+
+'bash' 
    python manage.py migrate
 
 
 5. Запустите сервер разработки:
-bash 
+
+'bash' 
    python manage.py runserver
 
 
