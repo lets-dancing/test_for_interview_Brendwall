@@ -14,26 +14,30 @@
 2. Создайте и активируйте виртуальное окружение:
 
 'bash'
-   python -m venv venv 
-   source venv/bin/activate  # Для Windows используйте  venv\Scripts\activate
+
+`python -m venv venv`
+`source venv/bin/activate`  
+# Для Windows используйте  `venv\Scripts\activate`
 
 
 3. Установите зависимости:
 
 'bash'
-   pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 
 4. Примените миграции для настройки базы данных:
 
-'bash' 
-   python manage.py migrate
+'bash'
+
+`python manage.py migrate`
 
 
 5. Запустите сервер разработки:
 
 'bash' 
-   python manage.py runserver
+
+`python manage.py runserver`
 
 
 6. Откройте браузер и перейдите по адресу `http://127.0.0.1:8000/` для доступа к приложению.
