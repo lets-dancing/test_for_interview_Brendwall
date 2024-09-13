@@ -6,7 +6,7 @@
 
 1. Клонируйте репозиторий:
 
-***bash***
+_bash_
 
 `git clone git@github.com:lets-dancing/test_for_interview_Brendwall.git`
 
@@ -15,7 +15,7 @@
 
 2. Создайте и активируйте виртуальное окружение:
 
-***bash***
+_bash_
 
 `python -m venv venv`
 
@@ -27,20 +27,21 @@
 
 3. Установите зависимости:
 
-***bash***
+_bash_
+
 `pip install -r requirements.txt`
 
 
 4. Примените миграции для настройки базы данных:
 
-***bash***
+_bash_
 
 `python manage.py migrate`
 
 
 5. Запустите сервер разработки:
 
-***bash***
+_bash_
 
 `python manage.py runserver`
 
